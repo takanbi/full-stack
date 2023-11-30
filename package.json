@@ -1,0 +1,37 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "full stack with js, node, react, express and mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "tsnd src/server/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takanbi/full-stack.git"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": "Tunji Akanbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takanbi/full-stack/issues"
+  },
+  "homepage": "https://github.com/takanbi/full-stack#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
